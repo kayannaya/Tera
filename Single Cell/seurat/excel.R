@@ -1,0 +1,47 @@
+library("TCGAbiolinks")
+library("limma")
+library("edgeR")
+library("glmnet")
+library("factoextra")
+library("FactoMineR")
+library("caret")
+library("SummarizedExperiment")
+library("gplots")
+library("survival")
+library("survminer")
+library("RColorBrewer")
+library("gProfileR")
+library("genefilter")
+library("biomaRt")
+library("AnnotationDbi")
+library("org.Hs.eg.db")
+library("stringr")
+library('corrr')
+library('ggpubr')
+library('pheatmap')
+library(stringr)
+library(zFPKM)
+library(ggplot2)
+library(ggpubr)
+library(tidyverse)
+library(dplyr)
+library(immunedeconv)
+library(Rtsne)
+library(tidyr)
+library(stringr)
+library(xlsx)
+
+library(AnnotationDbi)
+library(org.Hs.eg.db)
+
+devtools::install_github("icbi-lab/immunedeconv")
+
+install.packages("openxlsx")
+library(openxlsx)
+
+# write Excel
+write.xlsx(df, "file.xlsx")
+
+# read Excel
+read.xlsx("file.xlsx")
+
